@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anek+Bangla:wght@100..800&family=Geologica:wght@100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:slnt,wght@-10..0,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rozha+One&family=Yarndings+12+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anek+Bangla:wght@100..800&family=Geologica:wght@100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:slnt,wght@-10..0,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rozha+One&family=Yarndings+12+Charted&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Calligraffitti&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Edu+TAS+Beginner:wght@400..700&family=Emblema+One&family=Geologica:wght@100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rufina:wght@400;700&display=swap');
+
+
+.font-family-1 {
+    font-family: "Playfair Display", serif;
+}
+
+.font-family-2 {
+    font-family: "Roboto", sans-serif;
+    color: #888888;
+}
+
+.about-us {
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.img-responsive {
+    width: 30%;
+    height: auto;
+}
+
+
+.icon-width {
+    width: 50%;
+    height: auto;
+}
+
+.our-departement {
+    background-image: url(.././img/review_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    /* padding: 70px 0 30px; */
+    height: 60vh;
+    top: -450px;
+}
+
+.our-departement:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #1c19ab;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.col-xl-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-sm-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center !important;
+}
+
+
+.single-our-depertment {
+    margin-top: 0;
+    background-color: #fff;
+    margin-bottom: 40px;
+    position: relative;
+    border: 1px solid #f2f6f8;
+    padding: 60px 15px 32px;
+}
+
+.single-our-depertment:hover {
+    background-color: #0065e1;
+    color: #fff;
+}
+
+.single-depertment-icon {
+    height: auto;
+    width: 45px;
+    background-color: #f2f6f8;
+    display: inline-block;
+    line-height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -25px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.sun-footer {
+    position: relative;
+    z-index: 10;
+}
+
+.footers {
+    margin-top: -360px;
+  
+
+}
+
+.email { 
+    height: 48px;
+    border: none;
+    width: 100% !important;
+    font-weight: 400;
+    background: transparent;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #e1e1e1 !important;
+    color: #999999;
+}
+
+
+.button {
+    background-color: #0065e1;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    position: absolute;
+    margin-top: -45px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.color{
+    color: #888888;
+}
+
+
+
+.icons:hover{
+    cursor: pointer;
+}
